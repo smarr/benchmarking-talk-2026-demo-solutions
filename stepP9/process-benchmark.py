@@ -6,7 +6,7 @@ from download import download_to_cache
 from latex import write_macro
 
 # Step 3: basic details
-PROJECT_NAME = "BenchmarkingDemo"
+PROJECT_NAME = "PlissDemo"
 BASELINE_DATA_ID = "5843"
 CHANGE_DATA_ID = "5844"
 
