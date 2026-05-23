@@ -1,0 +1,11 @@
+build-and-run-y2:
+  tags: [yuria2]
+  script:
+    - python3 -m virtualenv venv
+    - source venv/bin/activate
+    - python3 -m pip install matplotlib pandas
+    - (cd experiments && python3 process-benchmark.py)
+    - latexmk -pdf -interaction=nonstopmode -file-line-error -f paper.tex
+  artifacts:
+    paths:
+      - paper.pdf
