@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # ACMART=$DIR/acmart
-ACMART="~/Projects/misc/acmart"
+ACMART="$HOME/Projects/misc/acmart"
 
 echo Copying ACM ART template to current directory
 echo Copying collab.sty for collaborative macros
